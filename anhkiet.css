@@ -1,0 +1,221 @@
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(22, 22, 157);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+
+
+.logo h1 {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    flex: 1;
+    text-align: center;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.cacbuoc {
+    padding: 40px 20px;
+    text-align: center;
+    
+}
+
+.cacbuoc-container h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dangkythuvien {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 10px;
+}
+
+
+.step p {
+    flex: 1;
+    margin: 0;
+    text-align: left;
+    font-size: 16px;
+}
+
+
+
+
+.number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 20px;
+    background-color: #309080; 
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+
+
+.noiquythuvien {
+    padding: 40px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.cottrai {
+    flex: 1;
+    min-width: 45%; /* Đảm bảo hiển thị đẹp trên màn hình nhỏ */
+    box-sizing: border-box;
+}
+
+.cottrai h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00796b;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.cottrai p {
+    margin: 10px 0;
+}
+
+a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.cotphai h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00796b;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.cotphai ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cotphai ul li {
+    margin-bottom: 15px;
+}
+
+.cotphai     ul li strong {
+    color: #00796b;
+}
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #005eb8;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.thongtintruong {
+    margin-bottom: 10px;
+}
+
+.thongtintruong p {
+    margin: 5px 0;
+}
+
+.thongtintruong a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.icons {
+    margin-top: 10px;
+}
+
+.icons .icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    background-size: cover;
+}
+
+.icons .facebook {
+    background-image: url('facebook-brands-solid.svg'); 
+}
+
+.icons .youtube {
+    background-image: url('youtube-brands-solid.svg'); 
+}
+
+.icons .instagram {
+    background-image: url('instagram-brands-solid.svg'); 
+}
